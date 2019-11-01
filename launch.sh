@@ -8,7 +8,7 @@ mysql -uroot -proot -e "flush privileges;"
 
 mysql -uroot -proot -e "create database bwapp;"
 mysql -uroot -proot -e "CREATE USER 'chevre'@'127.0.0.1' IDENTIFIED BY 'chevre';"
-mysql -uroot -proot -e "grant all on chevre.* to 'chevre'@'127.0.0.1';"
+mysql -uroot -proot -e "grant all on bwapp.* to 'chevre'@'127.0.0.1';"
 mysql -uroot -proot -e "flush privileges;"
 
 
