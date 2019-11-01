@@ -6,9 +6,9 @@ mysql -uroot -proot -e "CREATE USER 'dvwa'@'127.0.0.1' IDENTIFIED BY 'dvwa';"
 mysql -uroot -proot -e "grant all on dvwa.* to 'dvwa'@'127.0.0.1';"
 mysql -uroot -proot -e "flush privileges;"
 
-mysql -uroot -proot -e "create database bwapp;"
-mysql -uroot -proot -e "CREATE USER 'chevre'@'127.0.0.1' IDENTIFIED BY 'chevre';"
-mysql -uroot -proot -e "grant all on bWAPP.* to 'chevre'@'127.0.0.1';"
+mysql -uroot -proot -e "create database bWAPP;"
+mysql -uroot -proot -e "CREATE USER 'bee'@'localhost' IDENTIFIED BY 'bug';"
+mysql -uroot -proot -e "grant all on bWAPP.* to 'bee'@'localhost';"
 mysql -uroot -proot -e "flush privileges;"
 
 
