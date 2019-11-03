@@ -1,3 +1,6 @@
+apt install -y php7.3-xml cupp
+
+
 service apache2 start
 service mysql start
 
