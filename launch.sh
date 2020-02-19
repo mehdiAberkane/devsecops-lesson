@@ -1,3 +1,5 @@
+apt update -y
+âpt upgrade -y
 apt install -y php7.3-xml cupp
 
 
